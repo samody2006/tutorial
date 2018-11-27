@@ -210,6 +210,65 @@
     </div>
     <!-- //services-->
      <!-- footer -->
+     
+         <div class="modal fade login" id="loginModal">
+              <div class="modal-dialog login animated">
+                  <div class="modal-content">
+                     <div class="modal-header">
+                        <h4 class="modal-title">Login with</h4><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    </div>
+                    <div class="modal-body">  
+                        <div class="box">
+                             <div class="content">
+                           
+                                <div class="division">
+                                    
+                                </div>
+                                <div class="error"></div>
+                                <div class="form loginBox">
+                                    <form method="post" action="/login" accept-charset="UTF-8">
+                                    <input id="email" class="form-control" type="text" placeholder="Email" name="email">
+                                    <input id="password" class="form-control" type="password" placeholder="Password" name="password">
+                                    <input class="btn btn-default btn-login" type="button" value="Login" onclick="loginAjax()">
+                                    </form>
+                                </div>
+                             </div>
+                        </div>
+                        <div class="box">
+                            <div class="content registerBox" style="display:none;">
+                             <div class="form">
+                                <form method="post" html="{:multipart=>true}" data-remote="true" action="/register" accept-charset="UTF-8">
+                                <input id="fname" class="form-control" type="text" placeholder="Firstname" name="fname">
+                                <input id="lname" class="form-control" type="text" placeholder="Lastname" name="lname">
+                                <input id="phone" class="form-control" type="number" placeholder="phone number" name="phone">
+                                <input id="email" class="form-control" type="text" placeholder="Email" name="email">
+                                <input id="password" class="form-control" type="password" placeholder="Password" name="password">
+                                <input id="password_confirmation" class="form-control" type="password" placeholder="Repeat Password" name="password_confirmation">
+                                <input class="btn btn-default btn-register" type="submit" value="Create account" name="commit">
+                                </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="forgot login-footer">
+                            <span>forget your password
+                                 <a href="javascript: ;">password</a>
+                            ?</span>
+                            <span>Don't have account yet 
+                                 <a href="javascript: showRegisterForm();">create an account</a>
+                            ?</span>
+                        </div>
+                        <div class="forgot register-footer" style="display:none">
+                             <span>Already have an account?</span>
+                             <a href="javascript: showLoginForm();">Login</a>
+                        </div>
+                    </div>        
+                  </div>
+              </div>
+          </div>
+    </div> 
+    <!-- footer -->
     <footer >
     <!-- footer -->
     <footer class="footer py-md-5 pt-md-3 pb-sm-5">
@@ -448,9 +507,11 @@
     <!-- Bootstrap core JavaScript
 ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-     <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.js"></script>
     <script src="js/login-register.js"></script>
 
+       
+         
 </body>
 
 </html>
