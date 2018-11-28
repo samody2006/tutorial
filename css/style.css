@@ -945,6 +945,14 @@ h2 a {
 	text-align: center;
 	border-radius: 50%;
 }
+.fv3-dr span {
+	color: #008eff;
+	width: 35px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	border-radius: 50%;
+}
 
 .footv3-left h4 a {
 	font-size: 1.3em;
@@ -1289,6 +1297,25 @@ span.ot {
 .team-text {
 	padding: 0 3em;
 }
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 50px; /* Place the button at the bottom of the page */
+    right: 5px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #007cff; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+    background-color: #2e6da4; /* Add a dark-grey background on hover */
+}
 
 .btn_apt {
 	text-transform: capitalize;
@@ -1300,6 +1327,16 @@ span.ot {
 	font-weight: 600;
 	cursor: pointer;
 	border: 1px solid #2391e2;
+}
+.btn_dr {
+	text-transform: capitalize;
+	background: ;
+	padding: 5px 20px;
+	display: inline-block;
+	border-radius: 15px;
+	font-weight: 600;
+	cursor: pointer;
+	border: 1px solid #007cff;
 }
 
 .team-text small {
