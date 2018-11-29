@@ -1739,7 +1739,7 @@ p.grid1 {
 }
 .login-head h1 {
     font-size:3em;
-     color:#FFF;
+     color:#2e6da4;
     padding: 1em 0em 0em 0em;
     text-align: center;
     font-family: 'Carrois Gothic', sans-serif;
@@ -1776,7 +1776,7 @@ p.grid1 {
     font-family: 'Carrois Gothic', sans-serif;
 }
 .login-block input[type="submit"]:hover{
-	background:#68AE00;
+	background:#2e6da4;
 	transition: 0.5s all;
 	-webkit-transition: 0.5s all;
 	-moz-transition: 0.5s all;
@@ -1791,7 +1791,7 @@ p.grid1 {
     margin-left: 1.3em;
     margin-top: 0;
     font-size: 1em;
-    color: #555;
+    color: #2e6da4;
     font-weight: 400;
     display: inline-block;
     cursor: pointer;
@@ -1802,13 +1802,13 @@ p.grid1 {
 }
 .forgot a {
 	font-size: 0.75em;
-    color:#FC8213;
+    color:#2e6da4;
     font-weight: 600;
     display: block;
     text-transform: uppercase;
 }
 .forgot a:hover{
-	color:#68AE00;
+	color:#007cff;
 }
 .login-block h2{
 	color:#68AE00;
@@ -1867,7 +1867,7 @@ p.grid1 {
 .forgot-grid ul li input[type="checkbox"]+label {
     position: relative;
     padding-left: 31px;
-    color: #FC8213;
+    color: #2e6da4;
     display: inline-block;
     cursor: pointer;
     font-size: .75em;
@@ -1878,7 +1878,7 @@ p.grid1 {
     width: 17px;
     height: 17px;
     display: inline-block;
-    border: 2px solid #FC8213;
+    border: 2px solid #2e6da4;
     position: absolute;
     left: 0;
     bottom: 4px;

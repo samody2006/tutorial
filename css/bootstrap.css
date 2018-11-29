@@ -4025,6 +4025,8 @@ tbody.collapse.show {
   background-color: transparent;
   border: 1px solid transparent;
   border-radius: 0.25rem;
+   top:30px;
+  right:5px;
 }
 
 .navbar-toggler:hover, .navbar-toggler:focus {
@@ -4043,6 +4045,8 @@ tbody.collapse.show {
   content: "";
   background: no-repeat center center;
   background-size: 100% 100%;
+    top:30px;
+  right:5px;
 }
 
 @media (max-width: 575.98px) {

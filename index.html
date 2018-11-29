@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en-US">
 
@@ -12,7 +10,6 @@
         addEventListener("load", function () {
             setTimeout(hideURLbar, 0);
         }, false);
-
         function hideURLbar() {
             window.scrollTo(0, 1);
         }
@@ -41,7 +38,7 @@
                     <a class="navbar-brand text-white" href="index.html">Hillside Medicare</a>
                 </h1>
                 <button class="navbar-toggler ml-md-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
+                    aria-expanded="false" aria-label="Toggle navigation"><div><h4 style="color: #fff"> MENU</h4></div>
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
@@ -96,15 +93,15 @@
                         </li>
                         <li>
                             <div class="slider-info">
-                                <span class="">providing total</span>
-                                <h3>health care solution</h3>
+                                <span class="">saving life</span>
+                                <h3>timely</h3>
                                 <a class="btn btn-primary mt-3" href="services.html" role="button">View Details</a>
                             </div>
                         </li>
                         <li>
                             <div class="slider-info">
-                                <span class="">providing total</span>
-                                <h3>health care solution</h3>
+                                <span class="">bringing doctors</span>
+                                <h3>to you door step</h3>
                                 <a class="btn btn-primary mt-3" href="services.html" role="button">View Details</a>
                             </div>
                         </li>
@@ -121,14 +118,14 @@
 
       <!-- jumbotron-->
         <div class="jumbotron title-section text-center pb-md-5"">
-
             <h1>Our Services</h1>
             <p>Includes </p>
-
             <div class="btn-group">
-                <a href="" class="btn btn-sm btn-primary">Online Consultation</a>
-                <a href="" class="btn btn-sm btn-default">Home Vistation</a>
-                <a href="" class="btn btn-sm btn-primary">Emergency Service</a>
+                <ul>
+                <a href="" class="btn btn-lg btn-primary">Online Consultation</a>
+                <a href="" class="btn btn-lg btn-default">Home Vistation</a>
+                <a href="" class="btn btn-lg btn-primary">Emergency Service</a>
+            </ul>
             </div>
             <br>
             <br>
@@ -148,12 +145,11 @@
                         <li class="list-group-item border-0">Membership Access</li>
                         <li class="list-group-item border-0">Monthly Health Report</li>
                         <li class="list-group-item border-0">Health Tips</li>
-                            <button href="#myModal_btn" data-toggle="modal" data-target="#myModal_btn" type="button" class="btn btn-primary">Register Now</button>
+                            <button href="javascript:void(0)" onclick="openRegisterModal();" data-toggle="modal" data-target="#myModal_btn" type="button" class="btn btn-primary">Register Now</button>
                     </ul>
                 </div>
               
             
-
                 <div class="col-lg-4  triple-sec">
                    <h5>Basic</h5>
                    <div float="right" ><h6>Single, 1 Address</h6>
@@ -164,9 +160,8 @@
             <li class="list-group-item border-0">Monthly Health Report</li>
             <li class="list-group-item border-0">Online Consultation (x2)</li>
             <li class="list-group-item border-0">Emergency (x1)</li>
-             <button href="#myModal_btn" data-toggle="modal" data-target="#myModal_btn" type="button" class="btn btn-primary">Subscribe Now</button>
+             <button href="javascript:void(0)" onclick="openLoginModal();" data-toggle="modal" data-target="#myModal_btn" type="button" class="btn btn-primary">Subscribe Now</button>
                             </div>
-
                 <div class="col-lg-4 triple-sec">
                     <h5 class="text-dark">Premium</h5>
                     <div float="right" ><h6>2 Person, 1 Address</h6>
@@ -177,7 +172,7 @@
                     <li class="list-group-item border-0">Monthly Health Report</li>
                     <li class="list-group-item border-0">Online Consultation (x3)</li>
                     <li class="list-group-item border-0">Emergency (x2)</li>
-                    <button href="#myModal_btn" data-toggle="modal" data-target="#myModal_btn" type="button" class="btn btn-primary">Subscribe Now</button>
+                    <button href="javascript:void(0)" onclick="openLoginModal();" data-toggle="modal" data-target="#myModal_btn" type="button" class="btn btn-primary">Subscribe Now</button>
                 </div>
             </div>
         </div>
@@ -197,7 +192,6 @@
                                 <div class="col-lg-6 wthree_testimonials_grid">
                                     <p>
                                            I only had to wait about 5 minutes. The doctor was very professional and easy to talk to.
-
                                     </p>
                                     <div class="wthree_testimonials_grid_pos">
                                         <div class="row">
@@ -214,7 +208,6 @@
                                 <div class="col-lg-6  wthree_testimonials_grid mt-lg-0 mt-5">
                                     <p>
                                       I am thrilled to be connected to this site! So convenient. I feel much better already. Thank you! I only had to wait about 5 minutes. The doctor was very professional and easy to talk to.
-
                                     </p>
                                     <div class="wthree_testimonials_grid_pos">
                                         <div class="row">
@@ -311,7 +304,6 @@
         </div>
     </div>
     <!-- //testimonials -->
-
          <div class="modal fade login" id="loginModal">
               <div class="modal-dialog login animated">
                   <div class="modal-content">
@@ -540,7 +532,6 @@
                     $('.events').append("<li>after event fired.</li>");
                 }
             });
-
         });
     </script>
     <!-- //banner responsive slides -->
@@ -570,7 +561,6 @@
                     }
                 }
             });
-
         });
     </script>
     <!-- //Flexslider-js for-testimonials -->
@@ -599,7 +589,6 @@
         jQuery(document).ready(function ($) {
             $(".scroll").click(function (event) {
                 event.preventDefault();
-
                 $('html,body').animate({
                     scrollTop: $(this.hash).offset().top
                 }, 1000);
